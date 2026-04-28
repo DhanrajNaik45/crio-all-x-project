@@ -1,0 +1,59 @@
+.Button {
+    cursor: pointer;
+    border-radius: 0.75rem;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+.largeButton {
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+}
+
+.Button img {
+    max-width: 25px;
+}
+
+.mediumButton {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.smallButton {
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.gradientGreen {
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+
+}
+
+.gradientRed {
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+}
+
+.backgroundOrange {
+    background-color: var(--color-orange);
+}
+
+.backgroundRed {
+    background-color: var(--color-red);
+}
+
+.backgroundDarkGreen {
+    background-color: #43967B;
+    color: white;
+}
+
+.backgroundWhite {
+    background-color: white;
+    color: #000;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px 2px rgba(148, 145, 148, 1);
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(148, 145, 148, 1);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(148, 145, 148, 1);
+}
